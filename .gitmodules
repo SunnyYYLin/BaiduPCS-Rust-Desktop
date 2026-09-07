@@ -1,0 +1,3 @@
+[submodule "upstream/BaiduPCS-Rust"]
+	path = upstream/BaiduPCS-Rust
+	url = https://github.com/komorebiCarry/BaiduPCS-Rust.git

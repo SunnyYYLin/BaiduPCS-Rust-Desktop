@@ -1,0 +1,16 @@
+{
+  "name": "baidupcs-rust-desktop",
+  "version": "2.2.3",
+  "private": true,
+  "description": "Desktop client for BaiduPCS-Rust with Tauri",
+  "scripts": {
+    "build:frontend": "npm --prefix upstream/BaiduPCS-Rust/frontend run build",
+    "install:frontend": "npm --prefix upstream/BaiduPCS-Rust/frontend install",
+    "tauri": "tauri",
+    "dev": "tauri dev",
+    "build": "tauri build"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.2.0"
+  }
+}
